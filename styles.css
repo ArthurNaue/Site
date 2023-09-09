@@ -1,0 +1,33 @@
+body {
+  background-color: blue;
+}
+
+section {
+  background-color: white;
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.head {
+  font-size: 30px;
+}
+
+.splashimage {
+  padding: 80px;
+}
+
+a {
+  text-align: center;
+}
+
+.download {
+  max-width: 40px;
+  margin-left: 355px;
+}
