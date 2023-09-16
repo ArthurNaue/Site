@@ -48,12 +48,12 @@ img {
 }
 
 .jogo1 {
-  background-image: url("https://i.imgur.com/z9uFPig.png");
+  background-image: url(Images/NINJA-CUBE_BACKGROUND.png);
   background-repeat: repeat;
 }
 
 .jogo2 {
-  background-image: url("https://i.imgur.com/51aM5wW.png");
+  background-image: url("Images/DUNGEON_BACKGROUND.png");
   background-repeat: repeat;
 }
 
