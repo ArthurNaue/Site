@@ -31,6 +31,8 @@ a {
   max-width: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
+  background-color: white;
 }
 
 img {
@@ -45,7 +47,17 @@ img {
   font-family: cursive;
 }
 
-.jogo {
-  background-image: url("C:\Users\arthu\OneDrive\Área de Trabalho\VS\Ninja-Cube_Background.png");
-  background-repeat: repeat-x, repeat-y;
+.jogo1 {
+  background-image: url("https://i.imgur.com/z9uFPig.png");
+  background-repeat: repeat;
+}
+
+.jogo2 {
+  background-image: url("https://i.imgur.com/51aM5wW.png");
+  background-repeat: repeat;
+}
+
+.fieldset_titulo {
+  margin-top: 20px;
+  background-color: white;
 }
