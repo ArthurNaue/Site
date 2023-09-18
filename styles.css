@@ -59,7 +59,6 @@ header {
 }
 
 .social_media_div {
-  margin-left: 415px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -103,4 +102,14 @@ button:active {
   margin-top: 20px;
   display: block;
   width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descricao {
+  margin-right: 100px;
 }
