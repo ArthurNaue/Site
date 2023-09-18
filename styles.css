@@ -66,12 +66,21 @@ fieldset {
 }
 
 header {
-  font-size: 30px;
+  font-size: 50px;
+}
+
+.social_media_div {
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.social_media_fieldset {
+  width: 227px;
 }
 
 .social_media {
   color: rgb(0, 0, 0);
-  font-size: 200%;
+  font-size: 64%;
   text-decoration: none;
 }
 
@@ -79,6 +88,15 @@ header {
   color: rgb(50, 50, 50);
 }
 
-.social_media_div {
-  margin-left: 405px;
+.download_icon {
+  font-size: 150%;
+  color: white;
+}
+
+.download_icon:hover {
+  color: rgb(50, 50, 50);
+}
+
+footer {
+  text-align: center;
 }
