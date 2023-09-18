@@ -81,11 +81,11 @@ footer {
   text-align: center;
 }
 
-button {
+.download_button {
   border: none;
   outline: none;
   padding: 10px 20px;
-  color: #fff;
+  color: white;
   border-radius: 5px;
   transition: all ease 0.1s;
   width: 100%;
@@ -93,4 +93,13 @@ button {
 
 button:active {
   transform: translateY(5px);
+}
+
+.guide_button {
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
 }
