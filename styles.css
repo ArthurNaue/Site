@@ -25,12 +25,7 @@ a {
 }
 
 .download {
-  display: inline-block;
-  padding: 0.75rem 1.25rem;
-  border-radius: 10rem;
-  font-size: 1rem;
-  letter-spacing: 0.15rem;
-  margin-left: 460px;
+  margin-left: 480px;
   margin-bottom: 40px;
 }
 
@@ -46,13 +41,7 @@ img {
   font-family: cursive;
 }
 
-.jogo1 {
-  background-image: url(Images/NINJA-CUBE_BACKGROUND.png);
-  background-repeat: repeat;
-}
-
-.jogo2 {
-  background-image: url("Images/DUNGEON_BACKGROUND.png");
+.jogo {
   background-repeat: repeat;
 }
 
@@ -88,15 +77,21 @@ header {
   color: rgb(50, 50, 50);
 }
 
-.download_icon {
-  font-size: 150%;
-  color: white;
-}
-
-.download_icon:hover {
-  color: rgb(50, 50, 50);
-}
-
 footer {
   text-align: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+}
+
+button:active {
+  transform: translateY(5px);
 }
