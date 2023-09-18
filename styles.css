@@ -16,10 +16,6 @@ p {
   text-align: center;
 }
 
-.head {
-  font-size: 30px;
-}
-
 .splashimage {
   padding: 80px;
 }
@@ -34,7 +30,7 @@ a {
   border-radius: 10rem;
   font-size: 1rem;
   letter-spacing: 0.15rem;
-  margin-left: 440px;
+  margin-left: 460px;
   margin-bottom: 40px;
 }
 
@@ -67,4 +63,22 @@ img {
 
 fieldset {
   border-radius: 1rem;
+}
+
+header {
+  font-size: 30px;
+}
+
+.social_media {
+  color: rgb(0, 0, 0);
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.social_media:hover {
+  color: rgb(50, 50, 50);
+}
+
+.social_media_div {
+  margin-left: 405px;
 }
