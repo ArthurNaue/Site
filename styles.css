@@ -59,8 +59,9 @@ header {
 }
 
 .social_media_div {
-  margin-left: 350px;
+  margin-left: 415px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .social_media_fieldset {
@@ -69,7 +70,7 @@ header {
 
 .social_media {
   color: rgb(0, 0, 0);
-  font-size: 64%;
+  font-size: 150%;
   text-decoration: none;
 }
 
