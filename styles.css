@@ -114,3 +114,22 @@ button:active {
   text-align: center;
   margin-right: 25%;
 }
+
+.contact_division1 {
+  display: grid;
+  float: left;
+  width: 25%;
+}
+
+.contact_division2 {
+  display: grid;
+  float: right;
+  width: 25%;
+}
+
+.contact_division3 {
+  display: grid;
+  float: center;
+  width: 50%;
+  margin-bottom: 40px;
+}
