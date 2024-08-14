@@ -15,6 +15,8 @@
     crossorigin="anonymous"
   ></script>
 
+  <script src="scripts.js"></script>
+
   <!--  INICIO CABECALHO   -->
   <head>
     <!--  TEXTO DE TITULO DA PAGINA   -->
@@ -153,7 +155,12 @@
       <br />
 
       <!--  TEXTO NUMERO DE TELEFONE   -->
-      <p style="font-size: 150%">+55 49 99135 4347</p>
+      <button
+        id="phoneNumberButton"
+        onclick="copyToClipboard('+55 49 99135 4347')"
+      >
+        +55 49 99135 4347
+      </button>
 
       <!--  LINE BREAK   -->
       <br />
@@ -168,7 +175,9 @@
       <br />
 
       <!--  TEXTO EMAIL   -->
-      <p style="font-size: 150%">arthur_naue@hotmail.com</p>
+      <button onclick="copyToClipboard('arthur_naue@hotmail.com')">
+        arthur_naue@hotmail.com
+      </button>
 
       <!--  FIM DIVISAO DE CONTATOS  -->
     </div>
